@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+h2 {
+    color: blue;
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+
+
+.button {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remover sublinhado */
+    display: inline-block; /* Exibir como bloco */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Alterar cursor para ponteiro */
+    transition-duration: 0.4s; /* Duração da transição */
+}
+
+.button:hover {
+    background-color: #45a049; /* Cor de fundo quando hover */
+}
+
